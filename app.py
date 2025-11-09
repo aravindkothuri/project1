@@ -19,4 +19,11 @@ num1 = 10
 num2 = 25
 sum_of_numbers = num1 + num2
 print(f"The sum of {num1} and {num2} is: {sum_of_numbers}")
-
+      
+code-4
+a = 5
+b = 10
+print(f"Before swapping: a = {a}, b = {b}")
+a, b = b, a  # Pythonic way to swap variables
+print(f"After swapping: a = {a}, b = {b}")
+>>>>>>> Stashed changes
